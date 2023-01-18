@@ -87,6 +87,35 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+html {
+
+}
+
+main {
+  margin: 1 rem;
+}
+
+body {
+  display: flex; 
+  align-items: center;
+  flex-flow: column wrap;
+  justify-content: center;
+  background-color: #152A3E;
+  min-height: 100vh;
+}
+
+h1 {
+  font-family: 'Lexend Tera', sans-serif;
+}
+
+h2, h3, h4 {
+  font-family: 'Lekton', sans-serif;
+}
+
+p {
+  font-family: 'Lekton', sans-serif;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
