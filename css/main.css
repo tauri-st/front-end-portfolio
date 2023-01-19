@@ -87,35 +87,77 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/***** GENRAL STYLES *****/
 html {
 
 }
 
 main {
-  margin: 1 rem;
+  
 }
 
 body {
-  display: flex; 
+  display: flex;
   align-items: center;
-  flex-flow: column wrap;
-  justify-content: center;
+  flex-flow: column;
   background-color: #152A3E;
   min-height: 100vh;
 }
 
 h1 {
+  color: #EEEFDA;
   font-family: 'Lexend Tera', sans-serif;
 }
 
-h2, h3, h4 {
+h2, 
+h3, 
+h4 {
+  color: #EEEFDA;
   font-family: 'Lekton', sans-serif;
 }
 
 p {
+  color: #EEEFDA;
   font-family: 'Lekton', sans-serif;
 }
 
+a {
+  color: #EEEFDA;
+  font-family: 'Lekton', sans-serif;
+  text-decoration: none;
+}
+
+.content-wrapper {
+  width: 90%;
+  margin: 50px 0;
+}
+
+/***** HEADER/FOOTER BASE STYLES *****/
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 0;
+  width: 100%;
+}
+
+header .content-wrapper {
+  margin: 0;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+header nav ul li {
+  padding: 0 10px;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
