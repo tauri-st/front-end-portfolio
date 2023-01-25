@@ -134,6 +134,14 @@ ul li {
   font-color: #EEE4F0;
 }
 
+img {
+  width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
 .content-wrapper {
   width: 85%;
   margin: 50px 0;
