@@ -112,6 +112,10 @@ h4 {
   font-family: 'Lekton', sans-serif;
 }
 
+h2 {
+  margin-top: 30px;
+}
+
 h3 {
   color: #351D77;
   font-size: 1.75rem;
@@ -131,7 +135,7 @@ a {
 }
 
 ul li {
-  font-color: #EEE4F0;
+  color: #EEE4F0;
 }
 
 img {
@@ -140,6 +144,17 @@ img {
 
 figure {
   margin: 0;
+}
+
+header,
+main,
+.hero-area,
+#work,
+#skills,
+#about,
+footer {
+  display: flex;
+  justify-content: center;
 }
 
 .content-wrapper {
@@ -161,14 +176,14 @@ header,
 /***** HEADER STYLES *****/
 
 header {
-  display: flex;
-  justify-content: center;
   padding-top: 30px;
   padding-bottom: 60px;
-  text-align: center;
 }
 
 header .content-wrapper {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
   margin: 0;
 }
 
@@ -194,9 +209,6 @@ nav #contact-me {
 }
 
 .hero-area .content-wrapper {
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
   margin-top: 20px;
 }
 
@@ -214,11 +226,7 @@ nav #contact-me {
 /**** MAIN SECTION STYLES *****/
 
 main {
-  display: flex;
-  align-items: center;
   flex-flow: column wrap;
-  justify-content: center;
-  text-align: center;
 }
 
 main .content-wrapper {
