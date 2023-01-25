@@ -97,40 +97,40 @@ body {
   align-items: center;
   flex-flow: column wrap;
   justify-content: center;
-  background-color: #152A3E;
+  line-height: 1.4;
   min-height: 100vh;
 }
 
 h1 {
-  color: #F7E8E8;
-  font-family: 'Lexend Tera', sans-serif;
+  color: #EEE4F0;
+  font-family: 'Alata', sans-serif;
 }
 
 h2, 
 h4 {
-  color: #EEEFDA;
-  font-family: 'Lekton', sans-serif;
+  color: #EEE4F0;
+  font-family: 'Alata', sans-serif;
 }
 
 h3 {
-  color: #F7E8E8;
+  color: #E9B14C;
   font-size: 1.75rem;
-  font-family: 'Lexend Tera', sans-serif;
+  font-family: 'Alata', sans-serif;
 }
 
 p {
-  color: #EEEFDA;
-  font-family: 'Lekton', sans-serif;
+  color: #EEE4F0;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 a {
-  color: #EEEFDA;
-  font-family: 'Lekton', sans-serif;
+  color: #EEE4F0;
+  font-family: 'Nunito Sans', sans-serif;
   text-decoration: none;
 }
 
 .content-wrapper {
-  width: 90%;
+  width: 85%;
   margin: 50px 0;
 }
 
@@ -138,26 +138,46 @@ a {
 
 header {
   display: flex;
-  align-items: center;
   justify-content: center;
-  padding: 15px 0;
-  width: 100%;
+  background-color: #351D77;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  text-align: center;
 }
 
 header .content-wrapper {
   margin: 0;
 }
+
 header nav ul {
   display: flex;
   justify-content: space-around;
   list-style: none;
+  margin: 0;
   padding: 0;
   text-transform: uppercase;
-  width: 100%;
 }
 
 header nav ul li {
-  padding: 0 .625rem;
+  
+}
+
+.hero-area .content-wrapper {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.greeting,
+.avatar,
+.greeting-info {
+  display: flex;
+  justify-content: center;
+}
+
+.greeting-info {
+  text-align: center;
 }
 
 /**** MAIN SECTION STYLES *****/
@@ -171,23 +191,6 @@ main {
 
 main .content-wrapper {
   margin: 0;
-}
-
-.hero-area .content-wrapper {
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
-}
-
-.greeting,
-.avatar,
-.greeting-info {
-  display: flex;
-  justify-content: center;
-}
-
-.greeting-info {
-  text-align: center;
 }
   
 /* ==========================================================================
