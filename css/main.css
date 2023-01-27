@@ -113,7 +113,6 @@ h2 {
 }
 
 h3 {
-  color: #351D77;
   font-size: 1.75rem;
   font-family: 'Lekton', sans-serif;
 }
@@ -252,6 +251,10 @@ main .content-wrapper {
   filter: drop-shadow(1px 2px 6px gray);
 }
 
+#projects h3 {
+  color: #351D77;
+}
+
 .highlight-one {
   background-color: #E9B14C;
 }
@@ -262,7 +265,7 @@ main .content-wrapper {
 
 /***** SKILLS *****/
 #skill-section h3 {
-  color: #03dca2;
+  color: #EEE4F0
 }
 
 #skill-section h4 {
