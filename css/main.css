@@ -95,7 +95,7 @@ html {
 body {
   display: flex;
   align-items: center;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
   justify-content: center;
   line-height: 1.4;
   min-height: 100vh;
@@ -144,7 +144,7 @@ ul li {
 }
 
 img {
-  width: 100%;
+  
 }
 
 figure {
@@ -243,7 +243,7 @@ main .content-wrapper {
 #projects {
   display: flex;
   align-items: center;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
   justify-content: center;
   padding: 0 2rem;
 }
