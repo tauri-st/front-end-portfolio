@@ -177,6 +177,8 @@ header,
   background-color: #EEE4F0;
 }
 
+/***** NEST IN H3 and H4 styles when switching to SASS *****/
+
 /***** HEADER STYLES *****/
 
 header {
@@ -268,9 +270,23 @@ main .content-wrapper {
   color: #EEE4F0
 }
 
-#skill-section h4 {
+#skill-section .dev-skills {
   color: #E9B14C;
 }
+
+#skill-section .tech-stack {
+  color: #03dca2;
+}
+
+/***** CONTACT SECTION *****/
+#contact h3 {
+  color: #EEE4F0;
+}
+
+#contact h4 {
+  color: #EEE4F0;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
