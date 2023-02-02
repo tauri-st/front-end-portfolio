@@ -95,7 +95,7 @@ html {
 body {
   display: flex;
   align-items: center;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
   justify-content: center;
   line-height: 1.4;
   min-height: 100vh;
@@ -244,7 +244,7 @@ main .content-wrapper {
 #projects {
   display: flex;
   align-items: center;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
   justify-content: center;
   padding: 0 2rem;
 }
