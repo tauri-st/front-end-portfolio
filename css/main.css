@@ -131,7 +131,7 @@ p {
   font-family: 'Lekton', sans-serif;
   font-weight: 700;
   line-height: 1.5;
-  margin: 20px 0;
+  margin: 0;
 }
 
 a {
@@ -261,6 +261,10 @@ main .content-wrapper {
 
 #projects h3 {
   color: #351D77;
+}
+
+.project-description {
+  margin: 20px 0;
 }
 
 .highlight-one {
