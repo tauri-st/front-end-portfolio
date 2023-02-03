@@ -145,7 +145,7 @@ ul li {
 }
 
 img {
-  
+  max-width: 100%;
 }
 
 figure {
