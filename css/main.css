@@ -112,6 +112,8 @@ h2 {
 h3 {
   font-size: 1.75rem;
   font-family: 'Lekton', sans-serif;
+  margin-top: 60px;
+  margin-bottom: 40px;
 }
 
 h4 {
@@ -138,6 +140,8 @@ a {
 
 ul li {
   color: #EEE4F0;
+  font-family: 'Lekton', sans-serif;
+  font-size: 1.25rem;
 }
 
 img {
@@ -257,8 +261,6 @@ main .content-wrapper {
   flex-flow: column wrap;
 }
 
-/* SASS here to nest in style to max width and inherit from width of figure/image */
-
 #projects figure {
   filter: drop-shadow(1px 2px 6px gray);
 }
@@ -281,7 +283,9 @@ main .content-wrapper {
 
 /***** SKILLS *****/
 #skill-section h3 {
-  color: #EEE4F0
+  color: #EEE4F0;
+  margin-top: 60px;
+  margin-bottom: 40px;
 }
 
 #skill-section .dev-skills {
@@ -291,6 +295,21 @@ main .content-wrapper {
 #skill-section .tech-stack {
   color: #03dca2;
 }
+
+#skill-section {
+  display: flex;
+  align-items: center;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+#skill-section .content-wrapper {
+  display: flex;
+  align-items: center;
+  flex-flow: column wrap;
+  padding-bottom: 40px;
+}
+
 
 /***** CONTACT SECTION *****/
 #contact h3 {
