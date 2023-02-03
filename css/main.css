@@ -310,8 +310,28 @@ main .content-wrapper {
   padding-bottom: 40px;
 }
 
+/***** ABOUT SECTION *****/
+#about h3 {
+  color: #351D77;
+}
 
-/***** CONTACT SECTION *****/
+#about h4 {
+  text-decoration: none;
+}
+
+#about {
+  padding: 60px 0;
+}
+
+#about p {
+  margin-bottom: 30px;
+}
+
+#about .cant-wait {
+  font-weight: bold;
+}
+
+/***** FOOTER SECTION *****/
 #contact h3 {
   color: #EEE4F0;
 }
@@ -320,6 +340,40 @@ main .content-wrapper {
   color: #EEE4F0;
 }
 
+#contact {
+  padding: 80px 0;
+}
+
+#contact .content-wrapper {
+  display: flex;
+  align-items: center;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+.points-of-contact {
+  display: flex;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+.social-media ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+}
+
+.meet-me,
+.contact-info {
+  display: flex;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+.meet-me p {
+  color: #EEE4F0;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
