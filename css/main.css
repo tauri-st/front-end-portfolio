@@ -93,9 +93,6 @@ html {
 }
 
 body {
-  align-items: center;
-  flex-flow: column wrap;
-  justify-content: center;
   line-height: 1.4;
   min-height: 100vh;
 }
@@ -253,6 +250,14 @@ main .content-wrapper {
   padding-top: 80px;
   padding-bottom: 20px;
 }
+
+#projects .content-wrapper {
+  display: flex;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+/* SASS here to nest in style to max width and inherit from width of figure/image */
 
 #projects figure {
   filter: drop-shadow(1px 2px 6px gray);
