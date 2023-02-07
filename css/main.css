@@ -288,6 +288,15 @@ main .content-wrapper {
   background-color: #03dca2;
 }
 
+.button {
+  background-color: #f87795;
+  border-radius: 30px;
+  color: #351D77;
+  font-weight: 700;
+  margin-top: 20px;
+  padding: 5px 15px;
+}
+
 /***** SKILLS *****/
 #skill-section h3 {
   color: #EEE4F0;
