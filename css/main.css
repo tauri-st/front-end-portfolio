@@ -494,8 +494,7 @@ main .content-wrapper {
   }
  
   #projects {
-    flex-flow: row wrap;
-    justify-content: space-around;
+    
   }
 
   #projects h3 {
@@ -503,7 +502,7 @@ main .content-wrapper {
   }
 
   .project-container {
-    align-items: center;
+    align-items: space-between;
     margin: 0 15px 40px 15px;
     width: 45%;
   }
@@ -511,6 +510,8 @@ main .content-wrapper {
   #projects .content-wrapper {
     display: flex;
     flex-flow: row wrap;
+    align-items: space-around;
+    justify-content: center;
   }
 }
 
