@@ -216,6 +216,10 @@ nav #contact-me {
   border-radius: 30px;
 }
 
+nav #contact-me:hover {
+  background-color: #F4BEDC;
+}
+
 .hero-area .content-wrapper {
   margin-top: 20px;
 }
@@ -295,6 +299,10 @@ main .content-wrapper {
   font-weight: 700;
   margin-top: 20px;
   padding: 5px 15px;
+}
+
+.button:hover {
+  background-color: #F4BEDC;
 }
 
 /***** SKILLS *****/
