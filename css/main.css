@@ -265,6 +265,13 @@ main .content-wrapper {
   filter: drop-shadow(1px 2px 6px gray);
 }
 
+.project-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
 #projects h3 {
   color: #351D77;
 }
@@ -374,6 +381,7 @@ main .content-wrapper {
 .meet-me p {
   color: #EEE4F0;
 }
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -461,16 +469,43 @@ main .content-wrapper {
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
+/********** TABLET STYLES **********/
+@media only screen and (min-width: 768px) {
+  /***** GENERAL *****/
+  .content-wrapper {
+    max-width: 640px;
+  }
+ 
+  #projects {
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+
+  #projects h3 {
+    font-size: 3rem;
+  }
+
+  .project-container {
+    align-items: center;
+    margin: 0 15px 40px 15px;
+    width: 45%;
+  }
+
+  #projects .content-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+  }
+}
+
 
 @media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+  
 }
 
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
   (min-resolution: 1.25dppx),
   (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
 }
 
 /* ==========================================================================
