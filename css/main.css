@@ -506,14 +506,16 @@ main .content-wrapper {
   }
 
   .project-container {
-    align-items: space-between;
+    justify-content: space-between;
     margin: 0 15px;
+    height: 610px;
     width: 45%;
   }
 
   #projects .content-wrapper {
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-between;
   }
 }
 
