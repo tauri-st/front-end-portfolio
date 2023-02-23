@@ -155,7 +155,6 @@ img {
 }
 
 header,
-main,
 .hero-area,
 #work,
 #skills,
@@ -519,24 +518,24 @@ main .content-wrapper {
     flex-flow: row wrap;
     justify-content: space-between;
   }
-}
 
-/***** SKILLS *****/
-#skill-section .content-wrapper {
-  align-items: start;
-  flex-direction: row;
-  justify-content: center;
-}
+  /***** SKILLS *****/
+  #skill-section .content-wrapper {
+    align-items: start;
+    flex-direction: row;
+    justify-content: center;
+  }
 
-/***** FOOTER *****/
-.points-of-contact {
-  flex-direction: row;
-}
+  /***** FOOTER *****/
+  .points-of-contact {
+    flex-direction: row;
+  }
 
-.meet-me,
-.social-media,
-.contact-info {
-  margin: 0 10px;
+  .meet-me,
+  .social-media,
+  .contact-info {
+    margin: 0 10px;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
