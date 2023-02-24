@@ -519,6 +519,10 @@ main .content-wrapper {
     flex-direction: row;
     justify-content: center;
   }
+
+  .skills {
+    padding-right: 30px;
+  }
   
   /***** FOOTER *****/
   .points-of-contact {
