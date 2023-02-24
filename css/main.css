@@ -533,6 +533,7 @@ main .content-wrapper {
   /***** FOOTER *****/
   .points-of-contact {
     flex-direction: row;
+    align-items: start;
   }
 
   .meet-me,
@@ -574,6 +575,10 @@ main .content-wrapper {
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 3;
+  }
+
+  .points-of-contact {
+    align-items: start;
   }
 }
 
