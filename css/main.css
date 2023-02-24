@@ -529,7 +529,7 @@ main .content-wrapper {
     flex-direction: row;
     justify-content: center;
   }
-
+  
   /***** FOOTER *****/
   .points-of-contact {
     flex-direction: row;
@@ -577,6 +577,17 @@ main .content-wrapper {
     grid-row-end: 3;
   }
 
+  /***** ABOUT *****/
+  #about .content-wrapper {
+    display: flex;
+  }
+
+  #about figure {
+    min-width: 300px;
+    padding-right: 3em;
+  }
+
+  /***** FOOTER *****/
   .points-of-contact {
     align-items: start;
   }
