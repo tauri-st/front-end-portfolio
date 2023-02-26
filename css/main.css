@@ -184,6 +184,22 @@ header,
   background-color: #EEE4F0;
 }
 
+.button {
+  background-color: #f87795;
+  color: #351D77;
+  font-weight: 700;
+  padding: 5px 20px;
+  border-radius: 30px;
+}
+
+.button:hover {
+  background-color: #F4BEDC;
+}
+
+.button a {
+  color: #351D77;
+}
+
 /***** NEST IN H3 and H4 styles when switching to SASS *****/
 
 /***** HEADER STYLES *****/
@@ -211,18 +227,6 @@ header nav ul {
 
 header nav ul li {
   
-}
-
-nav #contact-me {
-  background-color: #f87795;
-  color: #351D77;
-  font-weight: 700;
-  padding: 5px 15px;
-  border-radius: 30px;
-}
-
-nav #contact-me:hover {
-  background-color: #F4BEDC;
 }
 
 .hero-area .content-wrapper {
