@@ -134,6 +134,7 @@ p {
 a {
   color: #EEE4F0;
   font-family: 'Lekton', sans-serif;
+  font-size: 1rem;
   text-decoration: none;
 }
 
@@ -513,6 +514,10 @@ main .content-wrapper {
   /***** GENERAL *****/
   .content-wrapper {
     max-width: 640px;
+  }
+
+  a {
+    font-size: 1.25rem;
   }
  
   /***** PROJECTS *****/
