@@ -264,7 +264,7 @@ main .content-wrapper {
   background-color: #03dca2;
   color: #351D77;
   text-align: center;
-  padding: 5px 0;
+  padding: 5px 8px;
   border-radius: 6px;
  
   /* Position the tooltip text */
