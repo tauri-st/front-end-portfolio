@@ -239,6 +239,7 @@ header nav ul li {
 .greeting-info {
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 
 .greeting-info {
