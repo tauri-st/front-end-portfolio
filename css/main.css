@@ -357,6 +357,7 @@ main .content-wrapper {
   display: flex;
   align-items: center;
   flex-flow: column wrap;
+  line-height: 2;
   padding-bottom: 40px;
 }
 
@@ -548,7 +549,7 @@ main .content-wrapper {
   #skill-section .content-wrapper {
     align-items: start;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
   }
 
   .skills {
