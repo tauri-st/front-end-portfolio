@@ -201,8 +201,6 @@ header,
   color: #351D77;
 }
 
-/***** NEST IN H3 and H4 styles when switching to SASS *****/
-
 /***** HEADER STYLES *****/
 
 header {
@@ -261,14 +259,14 @@ main .content-wrapper {
 /***** HERO AREA *****/
 /* Tooltip text */
 .tooltip .tooltiptext {
-  visibility: hidden;
-  width: 175px;
   background-color: #03dca2;
+  border-radius: 6px;
   color: #351D77;
   font-family: 'Lekton', sans-serif;
-  text-align: center;
   padding: 8px 5px;
-  border-radius: 6px;
+  text-align: center;
+  visibility: hidden;
+  width: 175px;
  
   /* Position the tooltip text */
   position: absolute;
@@ -616,6 +614,12 @@ main .content-wrapper {
   /***** FOOTER *****/
   .points-of-contact {
     align-items: start;
+  }
+
+  .contact-info,
+  .social-media,
+  .meet-me {
+    padding: 0 15px;
   }
 }
 
