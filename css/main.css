@@ -89,7 +89,7 @@ textarea {
 
 /***** GENRAL STYLES *****/
 html {
-
+  scroll-behavior: smooth;
 }
 
 body {
