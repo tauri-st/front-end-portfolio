@@ -261,11 +261,12 @@ main .content-wrapper {
 /* Tooltip text */
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: 200px;
+  width: 175px;
   background-color: #03dca2;
   color: #351D77;
+  font-family: 'Lekton', sans-serif;
   text-align: center;
-  padding: 5px 8px;
+  padding: 8px 5px;
   border-radius: 6px;
  
   /* Position the tooltip text */
