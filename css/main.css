@@ -390,6 +390,9 @@ main .content-wrapper {
 }
 
 #contact {
+  display: flex;
+  align-items: center;
+  flex-flow: column wrap;
   padding: 80px 0;
 }
 
@@ -420,6 +423,10 @@ main .content-wrapper {
 }
 
 .meet-me p {
+  color: #EEE4F0;
+}
+
+.copyright p {
   color: #EEE4F0;
 }
 
