@@ -371,6 +371,10 @@ main .content-wrapper {
   padding: 60px 0;
 }
 
+.portrait-wrapper {
+  text-align: center;
+}
+
 #about p {
   margin-bottom: 30px;
 }
