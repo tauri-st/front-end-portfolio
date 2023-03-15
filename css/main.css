@@ -233,17 +233,16 @@ header nav ul li {
 }
 
 .greeting,
-.avatar,
-.greeting-info {
+.avatar {
   display: flex;
   justify-content: center;
   text-align: center;
 }
 
 .greeting-info {
-  text-align: center;
   margin-top: 30px;
   margin-bottom: 30px;
+  text-align: left;
 }
 
 /**** MAIN SECTION STYLES *****/
