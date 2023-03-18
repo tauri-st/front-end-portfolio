@@ -1,16 +1,13 @@
 /*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
-
 /* main.css 2.1.0 | MIT License | https://github.com/h5bp/main.css#readme */
 /*
  * What follows is the result of much research on cross-browser styling.
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
  * Kroc Camen, and the H5BP dev community and team.
  */
-
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-
 html {
   color: #222;
   font-size: 1em;
@@ -26,7 +23,6 @@ html {
  *
  * Customize the background color to match your design.
  */
-
 ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none;
@@ -40,7 +36,6 @@ html {
 /*
  * A better looking default horizontal rule
  */
-
 hr {
   display: block;
   height: 1px;
@@ -55,7 +50,6 @@ hr {
  * images, videos and the bottom of their containers:
  * https://github.com/h5bp/html5-boilerplate/issues/440
  */
-
 audio,
 canvas,
 iframe,
@@ -68,7 +62,6 @@ video {
 /*
  * Remove default fieldset styles.
  */
-
 fieldset {
   border: 0;
   margin: 0;
@@ -78,7 +71,6 @@ fieldset {
 /*
  * Allow only vertical resizing of textareas.
  */
-
 textarea {
   resize: vertical;
 }
@@ -86,7 +78,6 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
 /***** GENRAL STYLES *****/
 html {
   scroll-behavior: smooth;
@@ -99,33 +90,33 @@ body {
 
 h1 {
   color: #EEE4F0;
-  font-family: 'Lexend Tera', sans-serif;
+  font-family: "Lexend Tera", sans-serif;
   padding-bottom: 30px;
 }
 
 h2 {
   color: #EEE4F0;
-  font-family: 'Lekton', sans-serif;
+  font-family: "Lekton", sans-serif;
   margin-top: 30px;
 }
 
 h3 {
   font-size: 1.75rem;
-  font-family: 'Lekton', sans-serif;
+  font-family: "Lekton", sans-serif;
   margin-top: 60px;
   margin-bottom: 40px;
 }
 
 h4 {
   color: #351D77;
-  font-family: 'Lekton', sans-serif;
+  font-family: "Lekton", sans-serif;
   font-size: 1.33em;
   margin-bottom: 40px;
 }
 
 p {
   color: #351D77;
-  font-family: 'Lekton', sans-serif;
+  font-family: "Lekton", sans-serif;
   font-weight: 700;
   line-height: 1.5;
   margin: 0;
@@ -133,8 +124,8 @@ p {
 
 a {
   color: #EEE4F0;
-  font-family: 'Lekton', sans-serif;
-  font-size: .9rem;
+  font-family: "Lekton", sans-serif;
+  font-size: 0.9rem;
   text-decoration: none;
 }
 
@@ -145,7 +136,7 @@ ul {
 
 ul li {
   color: #EEE4F0;
-  font-family: 'Lekton', sans-serif;
+  font-family: "Lekton", sans-serif;
   font-size: 1.25rem;
 }
 
@@ -174,8 +165,8 @@ footer {
   margin: 50px 0;
 }
 
-header, 
-#skill-section, 
+header,
+#skill-section,
 #contact {
   background-color: #351D77;
 }
@@ -202,7 +193,6 @@ header,
 }
 
 /***** HEADER STYLES *****/
-
 header {
   padding-top: 30px;
   padding-bottom: 60px;
@@ -224,10 +214,6 @@ header nav ul {
   text-transform: uppercase;
 }
 
-header nav ul li {
-  
-}
-
 #hero-area .content-wrapper {
   margin-top: 20px;
 }
@@ -246,7 +232,6 @@ header nav ul li {
 }
 
 /**** MAIN SECTION STYLES *****/
-
 main {
   flex-flow: column wrap;
 }
@@ -261,12 +246,11 @@ main .content-wrapper {
   background-color: #03dca2;
   border-radius: 6px;
   color: #351D77;
-  font-family: 'Lekton', sans-serif;
+  font-family: "Lekton", sans-serif;
   padding: 8px 5px;
   text-align: center;
   visibility: hidden;
   width: 175px;
- 
   /* Position the tooltip text */
   position: absolute;
   z-index: 1;
@@ -277,7 +261,6 @@ main .content-wrapper {
 }
 
 /***** PROJECTS *****/
-
 #projects {
   display: flex;
   align-items: center;
@@ -308,10 +291,11 @@ main .content-wrapper {
 
 .project-description-container {
   display: flex;
-  align-items: start;
+  align-items: flex-start;
   flex-direction: column;
   margin-bottom: 20px;
 }
+
 .project-description {
   margin: 20px 0;
 }
@@ -437,11 +421,9 @@ main .content-wrapper {
 /* ==========================================================================
    Helper classes
    ========================================================================== */
-
 /*
  * Hide visually and from screen readers
  */
-
 .hidden,
 [hidden] {
   display: none !important;
@@ -455,7 +437,6 @@ main .content-wrapper {
  *    causes content to wrap 1 word per line:
  *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
  */
-
 .sr-only {
   border: 0;
   clip: rect(0, 0, 0, 0);
@@ -474,7 +455,6 @@ main .content-wrapper {
  * to be focusable when navigated to via the keyboard:
  * https://www.drupal.org/node/897638
  */
-
 .sr-only.focusable:active,
 .sr-only.focusable:focus {
   clip: auto;
@@ -489,7 +469,6 @@ main .content-wrapper {
 /*
  * Hide visually and from screen readers, but maintain layout
  */
-
 .invisible {
   visibility: hidden;
 }
@@ -505,7 +484,6 @@ main .content-wrapper {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-
 .clearfix::before,
 .clearfix::after {
   content: " ";
@@ -527,76 +505,60 @@ main .content-wrapper {
   .content-wrapper {
     max-width: 640px;
   }
-
   a {
     font-size: 1.25rem;
   }
- 
   /***** PROJECTS *****/
-  #projects {
-    
-  }
-
   #projects h3 {
     font-size: 3rem;
   }
-
   .project-container {
     justify-content: space-between;
     margin: 20px 15px;
     height: 600px;
     width: 45%;
   }
-
   #projects .content-wrapper {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
   }
-
   /***** SKILLS *****/
   #skill-section .content-wrapper {
     align-items: start;
     flex-direction: row;
     justify-content: space-around;
   }
-
   .skills {
     padding-right: 30px;
   }
-  
   /***** FOOTER *****/
   .points-of-contact {
     flex-direction: row;
     align-items: start;
   }
-
   .meet-me,
   .social-media,
   .contact-info {
     margin: 0 10px;
   }
 }
-
 @media only screen and (min-width: 1200px) {
   .content-wrapper {
     max-width: 960px;
   }
-
   /***** HERO AREA *****/
   #hero-area .content-wrapper {
     display: grid;
     grid-template-columns: 580px 380px;
     grid-template-rows: 200px 300px;
   }
-
   .avatar {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 3;
   }
-
   .greeting {
     align-items: end;
     grid-column-start: 2;
@@ -604,48 +566,35 @@ main .content-wrapper {
     grid-row-start: 1;
     grid-row-end: 2;
   }
-
   .greeting-info {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 3;
   }
-
   /***** ABOUT *****/
   #about .content-wrapper {
     display: flex;
   }
-
   #about figure {
     min-width: 300px;
     padding-right: 3em;
   }
-
   /***** FOOTER *****/
   .points-of-contact {
     align-items: start;
   }
-
   .contact-info,
   .social-media,
   .meet-me {
     padding: 0 15px;
   }
 }
-
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-}
-
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
    https://www.phpied.com/delay-loading-your-print-css/
    ========================================================================== */
-
 @media print {
   *,
   *::before,
@@ -656,20 +605,16 @@ main .content-wrapper {
     box-shadow: none !important;
     text-shadow: none !important;
   }
-
   a,
   a:visited {
     text-decoration: underline;
   }
-
   a[href]::after {
     content: " (" attr(href) ")";
   }
-
   abbr[title]::after {
     content: " (" attr(title) ")";
   }
-
   /*
    * Don't show links that are fragment identifiers,
    * or use the `javascript:` pseudo protocol
@@ -678,17 +623,14 @@ main .content-wrapper {
   a[href^="javascript:"]::after {
     content: "";
   }
-
   pre {
     white-space: pre-wrap !important;
   }
-
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
-
   /*
    * Printing Tables:
    * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
@@ -696,22 +638,18 @@ main .content-wrapper {
   thead {
     display: table-header-group;
   }
-
   tr,
   img {
     page-break-inside: avoid;
   }
-
   p,
   h2,
   h3 {
     orphans: 3;
     widows: 3;
   }
-
   h2,
   h3 {
     page-break-after: avoid;
   }
-}
-
+}/*# sourceMappingURL=main.css.map */
