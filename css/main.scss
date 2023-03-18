@@ -86,8 +86,21 @@
   /* ==========================================================================
      Author's custom styles
      ========================================================================== */
-  
+
   /***** GENRAL STYLES *****/
+  /* FONT VARIABLES */
+  $main-header-font: 'Lexend Tera', sans-serif;
+  $primary-font-stack: 'Lekton', sans-serif;
+
+
+  /* COLOR VARIABLES */
+  $gray-white: #EEE4F0;
+  $hover-pink: #F4BEDC;
+  $orange: #E9B14C;
+  $pink: #f87795;
+  $purple-blue: #351D77;
+  $seafoam-green: #03dca2;
+
   html {
     scroll-behavior: smooth;
   }
@@ -98,42 +111,42 @@
   }
   
   h1 {
-    color: #EEE4F0;
-    font-family: 'Lexend Tera', sans-serif;
+    color: $gray-white;
+    font-family: $main-header-font;
     padding-bottom: 30px;
   }
   
   h2 {
-    color: #EEE4F0;
-    font-family: 'Lekton', sans-serif;
+    color: $gray-white;
+    font-family: $primary-font-stack;
     margin-top: 30px;
   }
   
   h3 {
     font-size: 1.75rem;
-    font-family: 'Lekton', sans-serif;
+    font-family: $primary-font-stack;
     margin-top: 60px;
     margin-bottom: 40px;
   }
   
   h4 {
-    color: #351D77;
-    font-family: 'Lekton', sans-serif;
+    color: $purple-blue;
+    font-family: $primary-font-stack;
     font-size: 1.33em;
     margin-bottom: 40px;
   }
   
   p {
-    color: #351D77;
-    font-family: 'Lekton', sans-serif;
+    color: $purple-blue;
+    font-family: $primary-font-stack;
     font-weight: 700;
     line-height: 1.5;
     margin: 0;
   }
   
   a {
-    color: #EEE4F0;
-    font-family: 'Lekton', sans-serif;
+    color: $gray-white;
+    font-family: $primary-font-stack;
     font-size: .9rem;
     text-decoration: none;
   }
@@ -144,8 +157,8 @@
   }
   
   ul li {
-    color: #EEE4F0;
-    font-family: 'Lekton', sans-serif;
+    color: $gray-white;
+    font-family: $primary-font-stack;
     font-size: 1.25rem;
   }
   
@@ -177,28 +190,28 @@
   header, 
   #skill-section, 
   #contact {
-    background-color: #351D77;
+    background-color: $purple-blue;
   }
   
   #projects,
   #about {
-    background-color: #EEE4F0;
+    background-color: $gray-white;
   }
   
   .button {
-    background-color: #f87795;
-    color: #351D77;
+    background-color: $pink;
+    color: $purple-blue;
     font-weight: 700;
     padding: 5px 20px;
     border-radius: 30px;
   }
   
   .button:hover {
-    background-color: #F4BEDC;
+    background-color: $hover-pink;
   }
   
   .button a {
-    color: #351D77;
+    color: $purple-blue;
   }
   
   /***** HEADER STYLES *****/
@@ -224,9 +237,6 @@
     text-transform: uppercase;
   }
   
-  header nav ul li {
-    
-  }
   
   #hero-area .content-wrapper {
     margin-top: 20px;
@@ -258,10 +268,10 @@
   /***** HERO AREA *****/
   /* Tooltip text */
   .tooltip .tooltiptext {
-    background-color: #03dca2;
+    background-color: $seafoam-green;
     border-radius: 6px;
-    color: #351D77;
-    font-family: 'Lekton', sans-serif;
+    color: $purple-blue;
+    font-family: $primary-font-stack;
     padding: 8px 5px;
     text-align: center;
     visibility: hidden;
@@ -303,7 +313,7 @@
   }
   
   #projects h3 {
-    color: #351D77;
+    color: $purple-blue;
   }
   
   .project-description-container {
@@ -317,30 +327,30 @@
   }
   
   .highlight-one {
-    background-color: #E9B14C;
+    background-color: $orange;
   }
   
   .highlight-two {
-    background-color: #03dca2;
+    background-color: $seafoam-green;
   }
   
   .button:hover {
-    background-color: #F4BEDC;
+    background-color: $hover-pink;
   }
   
   /***** SKILLS *****/
   #skill-section h3 {
-    color: #EEE4F0;
+    color: $gray-white;
     margin-top: 60px;
     margin-bottom: 40px;
   }
   
   #skill-section .dev-skills {
-    color: #E9B14C;
+    color: $orange;
   }
   
   #skill-section .tech-stack {
-    color: #03dca2;
+    color: $seafoam-green;
   }
   
   #skill-section {
@@ -360,7 +370,7 @@
   
   /***** ABOUT SECTION *****/
   #about h3 {
-    color: #351D77;
+    color: $purple-blue;
   }
   
   #about h4 {
@@ -386,11 +396,11 @@
   
   /***** FOOTER SECTION *****/
   #contact h3 {
-    color: #EEE4F0;
+    color: $gray-white;
   }
   
   #contact h4 {
-    color: #EEE4F0;
+    color: $gray-white;
   }
   
   #contact {
@@ -427,11 +437,11 @@
   }
   
   .meet-me p {
-    color: #EEE4F0;
+    color: $gray-white;
   }
   
   .copyright p {
-    color: #EEE4F0;
+    color: $gray-white;
   }
   
   /* ==========================================================================
@@ -533,9 +543,6 @@
     }
    
     /***** PROJECTS *****/
-    #projects {
-      
-    }
   
     #projects h3 {
       font-size: 3rem;
