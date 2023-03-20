@@ -545,6 +545,8 @@ main .content-wrapper {
     margin: 0 10px;
   }
 }
+
+/********** DESKTOP  STYLES **********/
 @media only screen and (min-width: 1200px) {
   .content-wrapper {
     max-width: 960px;
@@ -577,9 +579,10 @@ main .content-wrapper {
   /***** ABOUT *****/
   #about .content-wrapper {
     display: flex;
+    align-items: center;
   }
   #about figure {
-    min-width: 300px;
+    min-width: 400px;
     padding-right: 3em;
   }
   /***** FOOTER *****/
