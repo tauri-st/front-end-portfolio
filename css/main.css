@@ -349,12 +349,12 @@ main .content-wrapper {
   color: #351D77;
 }
 
-#about h4 {
-  text-decoration: none;
-}
-
 #about {
   padding: 60px 0;
+}
+
+#about .main-about {
+  font-size: 1.33em;
 }
 
 .portrait-wrapper {
@@ -577,9 +577,10 @@ main .content-wrapper {
   /***** ABOUT *****/
   #about .content-wrapper {
     display: flex;
+    align-items: center;
   }
   #about figure {
-    min-width: 300px;
+    min-width: 400px;
     padding-right: 3em;
   }
   /***** FOOTER *****/
