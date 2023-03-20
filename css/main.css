@@ -357,6 +357,10 @@ main .content-wrapper {
   padding: 60px 0;
 }
 
+#about .main-about {
+  font-size: 1.33em;
+}
+
 .portrait-wrapper {
   text-align: center;
 }

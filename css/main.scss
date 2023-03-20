@@ -373,13 +373,15 @@
     color: $purple-blue;
   }
   
-  #about h4 {
-    text-decoration: none;
-  }
-  
+
   #about {
     padding: 60px 0;
   }
+
+  #about  .main-about {
+    font-size: 1.33em;
+  }
+  
   
   .portrait-wrapper {
     text-align: center;
@@ -622,10 +624,11 @@
     /***** ABOUT *****/
     #about .content-wrapper {
       display: flex;
+      align-items: center;
     }
   
     #about figure {
-      min-width: 300px;
+      min-width: 400px;
       padding-right: 3em;
     }
   
