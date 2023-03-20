@@ -349,8 +349,8 @@ main .content-wrapper {
   color: #351D77;
 }
 
-#about h4 {
-  text-decoration: none;
+#about .main-about {
+  font-size: 1.33em;
 }
 
 #about {
