@@ -221,39 +221,44 @@
     padding-bottom: 60px;
   }
   
-  header .content-wrapper {
+  header {
+    .content-wrapper {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     margin: 0;
-  }
+    }
   
-  header nav ul {
+    nav ul {
     display: flex;
     justify-content: space-around;
     list-style: none;
     margin: 30px 0;
     padding: 0;
     text-transform: uppercase;
-  }
+    }
   
   
-  #hero-area .content-wrapper {
-    margin-top: 20px;
-  }
+  #hero-area {
+
+    .content-wrapper {
+      margin-top: 20px;
+    }
   
-  .greeting,
-  .avatar {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-  }
+    .greeting,
+    .avatar {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+    }
   
-  .greeting-info {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    text-align: left;
+    .greeting-info {
+      margin-top: 30px;
+      margin-bottom: 30px;
+      text-align: left;
+    }
   }
+}
   
   /**** MAIN SECTION STYLES *****/
   

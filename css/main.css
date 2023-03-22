@@ -206,7 +206,6 @@ header .content-wrapper {
   justify-content: center;
   margin: 0;
 }
-
 header nav ul {
   display: flex;
   justify-content: space-around;
@@ -215,19 +214,16 @@ header nav ul {
   padding: 0;
   text-transform: uppercase;
 }
-
-#hero-area .content-wrapper {
+header #hero-area .content-wrapper {
   margin-top: 20px;
 }
-
-.greeting,
-.avatar {
+header #hero-area .greeting,
+header #hero-area .avatar {
   display: flex;
   justify-content: center;
   text-align: center;
 }
-
-.greeting-info {
+header #hero-area .greeting-info {
   margin-top: 30px;
   margin-bottom: 30px;
   text-align: left;
@@ -347,10 +343,6 @@ main .content-wrapper {
 /***** ABOUT SECTION *****/
 #about h3 {
   color: #351D77;
-}
-
-#about .main-about {
-  font-size: 1.33em;
 }
 
 #about {
@@ -549,8 +541,6 @@ main .content-wrapper {
     margin: 0 10px;
   }
 }
-
-/********** DESKTOP  STYLES **********/
 @media only screen and (min-width: 1200px) {
   .content-wrapper {
     max-width: 960px;
