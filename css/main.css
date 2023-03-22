@@ -214,6 +214,9 @@ header nav ul {
   padding: 0;
   text-transform: uppercase;
 }
+header #hero-area {
+  /* Tooltip text */
+}
 header #hero-area .content-wrapper {
   margin-top: 20px;
 }
@@ -228,19 +231,7 @@ header #hero-area .greeting-info {
   margin-bottom: 30px;
   text-align: left;
 }
-
-/**** MAIN SECTION STYLES *****/
-main {
-  flex-flow: column wrap;
-}
-
-main .content-wrapper {
-  margin: 0;
-}
-
-/***** HERO AREA *****/
-/* Tooltip text */
-.tooltip .tooltiptext {
+header #hero-area .tooltip .tooltiptext {
   background-color: #03dca2;
   border-radius: 6px;
   color: #351D77;
@@ -253,9 +244,17 @@ main .content-wrapper {
   position: absolute;
   z-index: 1;
 }
-
-.tooltip:hover .tooltiptext {
+header #hero-area .tooltip:hover .tooltiptext {
   visibility: visible;
+}
+
+/**** MAIN SECTION STYLES *****/
+main {
+  flex-flow: column wrap;
+}
+
+main .content-wrapper {
+  margin: 0;
 }
 
 /***** PROJECTS *****/

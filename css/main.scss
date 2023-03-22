@@ -257,6 +257,26 @@
       margin-bottom: 30px;
       text-align: left;
     }
+
+    /* Tooltip text */
+    .tooltip .tooltiptext {
+      background-color: $seafoam-green;
+      border-radius: 6px;
+      color: $purple-blue;
+      font-family: $primary-font-stack;
+      padding: 8px 5px;
+      text-align: center;
+      visibility: hidden;
+      width: 175px;
+   
+    /* Position the tooltip text */
+      position: absolute;
+      z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
   }
 }
   
@@ -268,27 +288,6 @@
   
   main .content-wrapper {
     margin: 0;
-  }
-  
-  /***** HERO AREA *****/
-  /* Tooltip text */
-  .tooltip .tooltiptext {
-    background-color: $seafoam-green;
-    border-radius: 6px;
-    color: $purple-blue;
-    font-family: $primary-font-stack;
-    padding: 8px 5px;
-    text-align: center;
-    visibility: hidden;
-    width: 175px;
-   
-    /* Position the tooltip text */
-    position: absolute;
-    z-index: 1;
-  }
-  
-  .tooltip:hover .tooltiptext {
-    visibility: visible;
   }
   
   /***** PROJECTS *****/
