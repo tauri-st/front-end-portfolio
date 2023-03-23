@@ -518,6 +518,7 @@ main .content-wrapper {
     margin: 0 10px;
   }
 }
+/********** DESKTOP STYLES **********/
 @media only screen and (min-width: 1200px) {
   .content-wrapper {
     max-width: 960px;
@@ -528,20 +529,20 @@ main .content-wrapper {
     grid-template-columns: 580px 380px;
     grid-template-rows: 200px 300px;
   }
-  .avatar {
+  #hero-area .avatar {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 3;
   }
-  .greeting {
+  #hero-area .greeting {
     align-items: end;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
   }
-  .greeting-info {
+  #hero-area .greeting-info {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
