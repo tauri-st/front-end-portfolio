@@ -378,31 +378,32 @@
   }
   
   /***** ABOUT SECTION *****/
-  #about h3 {
-    color: $purple-blue;
-  }
-  
-
   #about {
     padding: 60px 0;
   }
+  
+  #about {
+    h3 {
+    color: $purple-blue;
+    }
 
-  #about  .main-about {
-    font-size: 1.33em;
-  }
+    .main-about {
+      font-size: 1.33em;
+    }
   
   
-  .portrait-wrapper {
-    text-align: center;
-  }
+    .portrait-wrapper {
+      text-align: center;
+    }
   
-  #about p {
-    margin-bottom: 30px;
-  }
+    p {
+      margin-bottom: 30px;
+    }
   
-  #about .cant-wait {
-    font-size: 1.1em;
-    font-weight: bold;
+    .cant-wait {
+      font-size: 1.1em;
+      font-weight: bold;
+    }
   }
   
   /***** FOOTER SECTION *****/
