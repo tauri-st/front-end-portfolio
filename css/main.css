@@ -270,7 +270,7 @@ main .content-wrapper {
   align-items: center;
   flex-flow: column wrap;
 }
-#projects #projects figure {
+#projects figure {
   filter: drop-shadow(1px 2px 6px gray);
 }
 #projects .project-container {
@@ -279,7 +279,7 @@ main .content-wrapper {
   flex-direction: column;
   align-items: center;
 }
-#projects #projects h3 {
+#projects h3 {
   color: #351D77;
 }
 #projects .project-description-container {
@@ -302,20 +302,6 @@ main .content-wrapper {
 }
 
 /***** SKILLS *****/
-#skill-section h3 {
-  color: #EEE4F0;
-  margin-top: 60px;
-  margin-bottom: 40px;
-}
-
-#skill-section .dev-skills {
-  color: #E9B14C;
-}
-
-#skill-section .tech-stack {
-  color: #03dca2;
-}
-
 #skill-section {
   display: flex;
   align-items: center;
@@ -329,6 +315,17 @@ main .content-wrapper {
   flex-flow: column wrap;
   line-height: 2;
   padding-bottom: 40px;
+}
+#skill-section h3 {
+  color: #EEE4F0;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+#skill-section .dev-skills {
+  color: #E9B14C;
+}
+#skill-section .tech-stack {
+  color: #03dca2;
 }
 
 /***** ABOUT SECTION *****/

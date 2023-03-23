@@ -306,7 +306,7 @@
       flex-flow: column wrap;
     }
   
-    #projects figure {
+    figure {
       filter: drop-shadow(1px 2px 6px gray);
     }
   
@@ -317,7 +317,7 @@
       align-items: center;
     }
   
-    #projects h3 {
+    h3 {
       color: $purple-blue;
     }
   
@@ -344,22 +344,8 @@
       background-color: $hover-pink;
     }
   } 
-  
+
   /***** SKILLS *****/
-  #skill-section h3 {
-    color: $gray-white;
-    margin-top: 60px;
-    margin-bottom: 40px;
-  }
-  
-  #skill-section .dev-skills {
-    color: $orange;
-  }
-  
-  #skill-section .tech-stack {
-    color: $seafoam-green;
-  }
-  
   #skill-section {
     display: flex;
     align-items: center;
@@ -367,12 +353,28 @@
     justify-content: center;
   }
   
-  #skill-section .content-wrapper {
-    display: flex;
-    align-items: center;
-    flex-flow: column wrap;
-    line-height: 2;
-    padding-bottom: 40px;
+  #skill-section {
+    .content-wrapper {
+      display: flex;
+      align-items: center;
+      flex-flow: column wrap;
+      line-height: 2;
+      padding-bottom: 40px;
+    }
+    
+    h3 {
+      color: $gray-white;
+      margin-top: 60px;
+      margin-bottom: 40px;
+    }
+  
+    .dev-skills {
+      color: $orange;
+    }
+  
+    .tech-stack {
+      color: $seafoam-green;
+    }
   }
   
   /***** ABOUT SECTION *****/
