@@ -351,14 +351,6 @@ main .content-wrapper {
 }
 
 /***** FOOTER SECTION *****/
-#contact h3 {
-  color: #EEE4F0;
-}
-
-#contact h4 {
-  color: #EEE4F0;
-}
-
 #contact {
   display: flex;
   align-items: center;
@@ -372,31 +364,32 @@ main .content-wrapper {
   flex-flow: column wrap;
   justify-content: center;
 }
-
-.points-of-contact {
+#contact h3 {
+  color: #EEE4F0;
+}
+#contact h4 {
+  color: #EEE4F0;
+}
+#contact .points-of-contact {
   display: flex;
   align-items: center;
   flex-flow: column wrap;
 }
-
-.social-media ul {
+#contact .social-media ul {
   display: flex;
   justify-content: space-around;
   padding: 0;
 }
-
-.meet-me,
-.contact-info {
+#contact .meet-me,
+#contact .contact-info {
   display: flex;
   align-items: center;
   flex-flow: column wrap;
 }
-
-.meet-me p {
+#contact .meet-me p {
   color: #EEE4F0;
 }
-
-.copyright p {
+#contact .copyright p {
   color: #EEE4F0;
 }
 

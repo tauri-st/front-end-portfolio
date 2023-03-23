@@ -407,14 +407,6 @@
   }
   
   /***** FOOTER SECTION *****/
-  #contact h3 {
-    color: $gray-white;
-  }
-  
-  #contact h4 {
-    color: $gray-white;
-  }
-  
   #contact {
     display: flex;
     align-items: center;
@@ -422,38 +414,48 @@
     padding: 80px 0;
   }
   
-  #contact .content-wrapper {
-    display: flex;
-    align-items: center;
-    flex-flow: column wrap;
-    justify-content: center;
-  }
+  #contact {
+    .content-wrapper {
+      display: flex;
+      align-items: center;
+      flex-flow: column wrap;
+      justify-content: center;
+    }
+    
+    h3 {
+      color: $gray-white;
+    }
   
-  .points-of-contact {
-    display: flex;
-    align-items: center;
-    flex-flow: column wrap;
-  }
+    h4 {
+      color: $gray-white;
+    }
   
-  .social-media ul {
-    display: flex;
-    justify-content: space-around;
-    padding: 0;
-  }
+    .points-of-contact {
+      display: flex;
+      align-items: center;
+      flex-flow: column wrap;
+    }
   
-  .meet-me,
-  .contact-info {
-    display: flex;
-    align-items: center;
-    flex-flow: column wrap;
-  }
+    .social-media ul {
+      display: flex;
+      justify-content: space-around;
+      padding: 0;
+    }
   
-  .meet-me p {
-    color: $gray-white;
-  }
+    .meet-me,
+    .contact-info {
+      display: flex;
+      align-items: center;
+      flex-flow: column wrap;
+    }
   
-  .copyright p {
-    color: $gray-white;
+    .meet-me p {
+      color: $gray-white;
+    }
+  
+    .copyright p {
+      color: $gray-white;
+    }
   }
   
   /* ==========================================================================
