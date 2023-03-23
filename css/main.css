@@ -484,19 +484,19 @@ main .content-wrapper {
     font-size: 1.25rem;
   }
   /***** PROJECTS *****/
-  #projects h3 {
-    font-size: 3rem;
-  }
-  .project-container {
-    justify-content: space-between;
-    margin: 20px 15px;
-    height: 600px;
-    width: 45%;
-  }
   #projects .content-wrapper {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+  }
+  #projects h3 {
+    font-size: 3rem;
+  }
+  #projects .project-container {
+    justify-content: space-between;
+    margin: 20px 15px;
+    height: 600px;
+    width: 45%;
   }
   /***** SKILLS *****/
   #skill-section .content-wrapper {
