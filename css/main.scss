@@ -634,14 +634,16 @@
       }
     }
     /***** ABOUT *****/
-    #about .content-wrapper {
-      display: flex;
-      align-items: center;
-    }
+    #about {
+      .content-wrapper {
+        display: flex;
+        align-items: center;
+      }
   
-    #about figure {
-      min-width: 400px;
-      padding-right: 3em;
+      figure {
+        min-width: 400px;
+        padding-right: 3em;
+      }
     }
   
     /***** FOOTER *****/
