@@ -591,15 +591,17 @@
     }
     
     /***** FOOTER *****/
-    .points-of-contact {
-      flex-direction: row;
-      align-items: start;
-    }
+    #contact {
+      .points-of-contact {
+        flex-direction: row;
+        align-items: start;
+      }
   
-    .meet-me,
-    .social-media,
-    .contact-info {
-      margin: 0 10px;
+      .meet-me,
+      .social-media,
+      .contact-info {
+        margin: 0 10px;
+      }
     }
   }
   
@@ -647,14 +649,12 @@
     }
   
     /***** FOOTER *****/
-    .points-of-contact {
-      align-items: start;
-    }
-  
-    .contact-info,
-    .social-media,
-    .meet-me {
-      padding: 0 15px;
+    #contact {
+      .contact-info,
+      .social-media,
+      .meet-me {
+        padding: 0 15px;
+      }
     }
   }
   

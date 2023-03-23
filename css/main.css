@@ -508,13 +508,13 @@ main .content-wrapper {
     padding-right: 30px;
   }
   /***** FOOTER *****/
-  .points-of-contact {
+  #contact .points-of-contact {
     flex-direction: row;
     align-items: start;
   }
-  .meet-me,
-  .social-media,
-  .contact-info {
+  #contact .meet-me,
+  #contact .social-media,
+  #contact .contact-info {
     margin: 0 10px;
   }
 }
@@ -552,12 +552,9 @@ main .content-wrapper {
     padding-right: 3em;
   }
   /***** FOOTER *****/
-  .points-of-contact {
-    align-items: start;
-  }
-  .contact-info,
-  .social-media,
-  .meet-me {
+  #contact .contact-info,
+  #contact .social-media,
+  #contact .meet-me {
     padding: 0 15px;
   }
 }
