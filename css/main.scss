@@ -564,7 +564,7 @@
         flex-flow: row wrap;
         justify-content: space-between;
       }
-      
+
       h3 {
       font-size: 3rem;
       }
@@ -578,14 +578,16 @@
     }
   
     /***** SKILLS *****/
-    #skill-section .content-wrapper {
-      align-items: start;
-      flex-direction: row;
-      justify-content: space-around;
-    }
+    #skill-section {
+      .content-wrapper {
+        align-items: start;
+        flex-direction: row;
+        justify-content: space-around;
+      }
   
-    .skills {
-      padding-right: 30px;
+      .skills {
+        padding-right: 30px;
+      }
     }
     
     /***** FOOTER *****/

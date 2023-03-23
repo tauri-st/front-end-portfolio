@@ -504,7 +504,7 @@ main .content-wrapper {
     flex-direction: row;
     justify-content: space-around;
   }
-  .skills {
+  #skill-section .skills {
     padding-right: 30px;
   }
   /***** FOOTER *****/
