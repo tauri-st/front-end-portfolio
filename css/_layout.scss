@@ -1,0 +1,22 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    min-height: 100vh;
+  }
+  
+  figure {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+
+  .content-wrapper {
+    width: 85%;
+    margin: 50px 0;
+  }

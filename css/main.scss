@@ -88,90 +88,15 @@
      ========================================================================== */
 
   /***** GENRAL STYLES *****/
-  /* FONT VARIABLES */
-  $main-header-font: 'Lexend Tera', sans-serif;
-  $primary-font-stack: 'Lekton', sans-serif;
 
+@import "layout";
 
-  /* COLOR VARIABLES */
-  $gray-white: #EEE4F0;
-  $hover-pink: #F4BEDC;
-  $orange: #E9B14C;
-  $pink: #f87795;
-  $purple-blue: #351D77;
-  $seafoam-green: #03dca2;
+  /* BRAND STYLES */
+@import "colors";
+@import "fonts";
+@import "button";
 
-  html {
-    scroll-behavior: smooth;
-  }
-  
-  body {
-    line-height: 1.4;
-    min-height: 100vh;
-  }
-  
-  h1 {
-    color: $gray-white;
-    font-family: $main-header-font;
-    padding-bottom: 30px;
-  }
-  
-  h2 {
-    color: $gray-white;
-    font-family: $primary-font-stack;
-    margin-top: 30px;
-  }
-  
-  h3 {
-    font-size: 1.75rem;
-    font-family: $primary-font-stack;
-    margin-top: 60px;
-    margin-bottom: 40px;
-  }
-  
-  h4 {
-    color: $purple-blue;
-    font-family: $primary-font-stack;
-    font-size: 1.33em;
-    margin-bottom: 40px;
-  }
-  
-  p {
-    color: $purple-blue;
-    font-family: $primary-font-stack;
-    font-weight: 700;
-    line-height: 1.5;
-    margin: 0;
-  }
-  
-  a {
-    color: $gray-white;
-    font-family: $primary-font-stack;
-    font-size: .9rem;
-    text-decoration: none;
-  }
-  
-  ul {
-    list-style: none;
-    padding-left: 0;
-  }
-  
-  ul li {
-    color: $gray-white;
-    font-family: $primary-font-stack;
-    font-size: 1.25rem;
-  }
-  
-  figure {
-    display: flex;
-    justify-content: center;
-    margin: 30px 0;
-  }
-  
-  img {
-    max-width: 100%;
-  }
-  
+/* GENERAL BODY STYLES */
   header,
   #hero-area,
   #work,
@@ -180,11 +105,6 @@
   footer {
     display: flex;
     justify-content: center;
-  }
-  
-  .content-wrapper {
-    width: 85%;
-    margin: 50px 0;
   }
   
   header, 
@@ -198,46 +118,9 @@
     background-color: $gray-white;
   }
   
-  .button {
-    background-color: $pink;
-    color: $purple-blue;
-    font-weight: 700;
-    padding: 5px 20px;
-    border-radius: 30px;
-  }
-  
-  .button:hover {
-    background-color: $hover-pink;
-  }
-  
-  .button a {
-    color: $purple-blue;
-  }
-  
   /***** HEADER STYLES *****/
   
-  header {
-    padding-top: 30px;
-    padding-bottom: 60px;
-  }
-  
-  header {
-    .content-wrapper {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    margin: 0;
-    }
-  
-    nav ul {
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-    margin: 30px 0;
-    padding: 0;
-    text-transform: uppercase;
-    }
-  
+  @import "nav";
   
   #hero-area {
 
@@ -276,7 +159,6 @@
   
   .tooltip:hover .tooltiptext {
     visibility: visible;
-  }
   }
 }
   
@@ -338,10 +220,6 @@
   
     .highlight-two {
       background-color: $seafoam-green;
-    }
-  
-    .button:hover {
-      background-color: $hover-pink;
     }
   } 
 
