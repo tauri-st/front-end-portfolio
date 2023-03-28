@@ -89,12 +89,12 @@
 
   /***** GENRAL STYLES *****/
 
-@import "layout";
+@use "layout";
 
   /* BRAND STYLES */
-@import "colors";
-@import "fonts";
-@import "button";
+@use "colors";
+@use "fonts";
+@use "button";
 
 /* GENERAL BODY STYLES */
   header,
