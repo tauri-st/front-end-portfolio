@@ -111,13 +111,21 @@
   #skill-section, 
   #contact {
     background-color: $purple-blue;
+      h3, 
+      h4, 
+      p {
+        color: $gray-white;
+      }
   }
-  
+
   #projects,
   #about {
     background-color: $gray-white;
+      h3 {
+        color: $purple-blue;
+    }
   }
-  
+
   /***** HEADER STYLES *****/
   
   @import "nav";
@@ -199,10 +207,6 @@
       align-items: center;
     }
   
-    h3 {
-      color: $purple-blue;
-    }
-  
     .project-description-container {
       display: flex;
       align-items: flex-start;
@@ -241,7 +245,6 @@
     }
     
     h3 {
-      color: $gray-white;
       margin-top: 60px;
       margin-bottom: 40px;
     }
@@ -261,10 +264,6 @@
   }
   
   #about {
-    h3 {
-    color: $purple-blue;
-    }
-
     .main-about {
       font-size: 1.33em;
     }
@@ -299,14 +298,6 @@
       flex-flow: column wrap;
       justify-content: center;
     }
-
-    h3 {
-      color: $gray-white;
-    }
-  
-    h4 {
-      color: $gray-white;
-    }
   
     .points-of-contact {
       display: flex;
@@ -325,14 +316,6 @@
       display: flex;
       align-items: center;
       flex-flow: column wrap;
-    }
-  
-    .meet-me p {
-      color: $gray-white;
-    }
-  
-    .copyright p {
-      color: $gray-white;
     }
   }
   
