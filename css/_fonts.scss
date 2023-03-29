@@ -1,3 +1,4 @@
+@use 'colors';
 $main-header-font: 'Lexend Tera', sans-serif;
 $primary-font-stack: 'Lekton', sans-serif;
 
@@ -6,13 +7,13 @@ body {
   }
 
   h1 {
-    color: $gray-white;
+    color: colors.$gray-white;
     font-family: $main-header-font;
     padding-bottom: 30px;
   }
   
   h2 {
-    color: $gray-white;
+    color: colors.$gray-white;
     font-family: $primary-font-stack;
     margin-top: 30px;
   }
@@ -25,14 +26,14 @@ body {
   }
   
   h4 {
-    color: $purple-blue;
+    color: colors.$purple-blue;
     font-family: $primary-font-stack;
     font-size: 1.33em;
     margin-bottom: 40px;
   }
   
   p {
-    color: $purple-blue;
+    color: colors.$purple-blue;
     font-family: $primary-font-stack;
     font-weight: 700;
     line-height: 1.5;
@@ -40,7 +41,7 @@ body {
   }
   
   a {
-    color: $gray-white;
+    color: colors.$gray-white;
     font-family: $primary-font-stack;
     font-size: .9rem;
     text-decoration: none;
@@ -52,7 +53,7 @@ body {
   }
   
   ul li {
-    color: $gray-white;
+    color: colors.$gray-white;
     font-family: $primary-font-stack;
     font-size: 1.25rem;
   }

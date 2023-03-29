@@ -1,15 +1,17 @@
+@use 'colors';
+
 .button {
     background-color: $pink;
-    color: $purple-blue;
+    color: colors.$purple-blue;
     font-weight: 700;
     padding: 5px 20px;
     border-radius: 30px;
   }
   
   .button:hover {
-    background-color: $hover-pink;
+    background-color: colors.$hover-pink;
   }
   
   .button a {
-    color: $purple-blue;
+    color: colors.$purple-blue;
   }

@@ -1,3 +1,118 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+}
+
+figure {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.content-wrapper {
+  width: 85%;
+  margin: 50px 0;
+}
+
+header {
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+header .content-wrapper {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  margin: 0;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin: 30px 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+body {
+  line-height: 1.4;
+}
+
+h1 {
+  color: #EEE4F0;
+  font-family: "Lexend Tera", sans-serif;
+  padding-bottom: 30px;
+}
+
+h2 {
+  color: #EEE4F0;
+  font-family: "Lekton", sans-serif;
+  margin-top: 30px;
+}
+
+h3 {
+  font-size: 1.75rem;
+  font-family: "Lekton", sans-serif;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+h4 {
+  color: #351D77;
+  font-family: "Lekton", sans-serif;
+  font-size: 1.33em;
+  margin-bottom: 40px;
+}
+
+p {
+  color: #351D77;
+  font-family: "Lekton", sans-serif;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+}
+
+a {
+  color: #EEE4F0;
+  font-family: "Lekton", sans-serif;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  color: #EEE4F0;
+  font-family: "Lekton", sans-serif;
+  font-size: 1.25rem;
+}
+
+.button {
+  background-color: blue;
+  color: #351D77;
+  font-weight: 700;
+  padding: 5px 20px;
+  border-radius: 30px;
+}
+
+.button:hover {
+  background-color: #F4BEDC;
+}
+
+.button a {
+  color: #351D77;
+}
+
 /*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
 /* main.css 2.1.0 | MIT License | https://github.com/h5bp/main.css#readme */
 /*
@@ -8,6 +123,8 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+/***** GENRAL STYLES *****/
+/* BRAND STYLES */
 html {
   color: #222;
   font-size: 1em;
@@ -78,80 +195,7 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-/***** GENRAL STYLES *****/
-/* FONT VARIABLES */
-/* BRAND STYLES */
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  line-height: 1.4;
-  min-height: 100vh;
-}
-
-h1 {
-  color: #EEE4F0;
-  font-family: "Lexend Tera", sans-serif;
-  padding-bottom: 30px;
-}
-
-h2 {
-  color: #EEE4F0;
-  font-family: "Lekton", sans-serif;
-  margin-top: 30px;
-}
-
-h3 {
-  font-size: 1.75rem;
-  font-family: "Lekton", sans-serif;
-  margin-top: 60px;
-  margin-bottom: 40px;
-}
-
-h4 {
-  color: #351D77;
-  font-family: "Lekton", sans-serif;
-  font-size: 1.33em;
-  margin-bottom: 40px;
-}
-
-p {
-  color: #351D77;
-  font-family: "Lekton", sans-serif;
-  font-weight: 700;
-  line-height: 1.5;
-  margin: 0;
-}
-
-a {
-  color: #EEE4F0;
-  font-family: "Lekton", sans-serif;
-  font-size: 0.9rem;
-  text-decoration: none;
-}
-
-ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-ul li {
-  color: #EEE4F0;
-  font-family: "Lekton", sans-serif;
-  font-size: 1.25rem;
-}
-
-figure {
-  display: flex;
-  justify-content: center;
-  margin: 30px 0;
-}
-
-img {
-  max-width: 100%;
-}
-
+/* GENERAL BODY STYLES */
 header,
 #hero-area,
 #work,
@@ -162,76 +206,48 @@ footer {
   justify-content: center;
 }
 
-.content-wrapper {
-  width: 85%;
-  margin: 50px 0;
-}
-
 header,
 #skill-section,
 #contact {
   background-color: #351D77;
+}
+header h3,
+header h4,
+header p,
+#skill-section h3,
+#skill-section h4,
+#skill-section p,
+#contact h3,
+#contact h4,
+#contact p {
+  color: #EEE4F0;
 }
 
 #projects,
 #about {
   background-color: #EEE4F0;
 }
-
-.button {
-  background-color: #f87795;
-  color: #351D77;
-  font-weight: 700;
-  padding: 5px 20px;
-  border-radius: 30px;
-}
-
-.button:hover {
-  background-color: #F4BEDC;
-}
-
-.button a {
+#projects h3,
+#about h3 {
   color: #351D77;
 }
 
 /***** HEADER STYLES *****/
-header {
-  padding-top: 30px;
-  padding-bottom: 60px;
-}
-
-header .content-wrapper {
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
-  margin: 0;
-}
-header nav ul {
-  display: flex;
-  justify-content: space-around;
-  list-style: none;
-  margin: 30px 0;
-  padding: 0;
-  text-transform: uppercase;
-}
-header #hero-area {
-  /* Tooltip text */
-}
-header #hero-area .content-wrapper {
+#hero-area .content-wrapper {
   margin-top: 20px;
 }
-header #hero-area .greeting,
-header #hero-area .avatar {
+#hero-area .greeting,
+#hero-area .avatar {
   display: flex;
   justify-content: center;
   text-align: center;
 }
-header #hero-area .greeting-info {
+#hero-area .greeting-info {
   margin-top: 30px;
   margin-bottom: 30px;
   text-align: left;
 }
-header #hero-area .tooltip .tooltiptext {
+#hero-area .tooltip .tooltiptext {
   background-color: #03dca2;
   border-radius: 6px;
   color: #351D77;
@@ -240,11 +256,10 @@ header #hero-area .tooltip .tooltiptext {
   text-align: center;
   visibility: hidden;
   width: 175px;
-  /* Position the tooltip text */
   position: absolute;
   z-index: 1;
 }
-header #hero-area .tooltip:hover .tooltiptext {
+#hero-area .tooltip:hover .tooltiptext {
   visibility: visible;
 }
 
@@ -279,9 +294,6 @@ main .content-wrapper {
   flex-direction: column;
   align-items: center;
 }
-#projects h3 {
-  color: #351D77;
-}
 #projects .project-description-container {
   display: flex;
   align-items: flex-start;
@@ -296,9 +308,6 @@ main .content-wrapper {
 }
 #projects .highlight-two {
   background-color: #03dca2;
-}
-#projects .button:hover {
-  background-color: #F4BEDC;
 }
 
 /***** SKILLS *****/
@@ -317,7 +326,6 @@ main .content-wrapper {
   padding-bottom: 40px;
 }
 #skill-section h3 {
-  color: #EEE4F0;
   margin-top: 60px;
   margin-bottom: 40px;
 }
@@ -333,9 +341,6 @@ main .content-wrapper {
   padding: 60px 0;
 }
 
-#about h3 {
-  color: #351D77;
-}
 #about .main-about {
   font-size: 1.33em;
 }
@@ -364,12 +369,6 @@ main .content-wrapper {
   flex-flow: column wrap;
   justify-content: center;
 }
-#contact h3 {
-  color: #EEE4F0;
-}
-#contact h4 {
-  color: #EEE4F0;
-}
 #contact .points-of-contact {
   display: flex;
   align-items: center;
@@ -385,12 +384,6 @@ main .content-wrapper {
   display: flex;
   align-items: center;
   flex-flow: column wrap;
-}
-#contact .meet-me p {
-  color: #EEE4F0;
-}
-#contact .copyright p {
-  color: #EEE4F0;
 }
 
 /* ==========================================================================

@@ -10,6 +10,17 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+ /***** GENRAL STYLES *****/
+
+ @use 'layout';
+ @use "nav";
+
+ /* BRAND STYLES */
+@use 'colors';
+@use 'fonts';
+@use 'button';
+
+
 
    html {
     color: #222;
@@ -87,15 +98,6 @@
      Author's custom styles
      ========================================================================== */
 
-  /***** GENRAL STYLES *****/
-
-@use "layout";
-
-  /* BRAND STYLES */
-@use "colors";
-@use "fonts";
-@use "button";
-
 /* GENERAL BODY STYLES */
   header,
   #hero-area,
@@ -110,25 +112,23 @@
   header, 
   #skill-section, 
   #contact {
-    background-color: $purple-blue;
+    background-color: colors.$purple-blue;
       h3, 
       h4, 
       p {
-        color: $gray-white;
+        color: colors.$gray-white;
       }
   }
 
   #projects,
   #about {
-    background-color: $gray-white;
+    background-color: colors.$gray-white;
       h3 {
-        color: $purple-blue;
+        color: colors.$purple-blue;
     }
   }
 
   /***** HEADER STYLES *****/
-  
-  @use "nav";
   
   #hero-area {
 
@@ -149,18 +149,15 @@
       text-align: left;
     }
 
-    /* Tooltip text */
     .tooltip .tooltiptext {
-      background-color: $seafoam-green;
+      background-color: colors.$seafoam-green;
       border-radius: 6px;
-      color: $purple-blue;
-      font-family: $primary-font-stack;
+      color: colors.$purple-blue;
+      font-family: fonts.$primary-font-stack;
       padding: 8px 5px;
       text-align: center;
       visibility: hidden;
       width: 175px;
-   
-    /* Position the tooltip text */
       position: absolute;
       z-index: 1;
   }
@@ -219,11 +216,11 @@
     }
   
     .highlight-one {
-      background-color: $orange;
+      background-color: colors.$orange;
     }
   
     .highlight-two {
-      background-color: $seafoam-green;
+      background-color: colors.$seafoam-green;
     }
   } 
 
@@ -250,11 +247,11 @@
     }
   
     .dev-skills {
-      color: $orange;
+      color: colors.$orange;
     }
   
     .tech-stack {
-      color: $seafoam-green;
+      color: colors.$seafoam-green;
     }
   }
   
