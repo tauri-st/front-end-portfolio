@@ -1,7 +1,8 @@
 @use 'colors';
+@use 'sass:color';
 
 .button {
-    background-color: $pink;
+    background-color: colors.$pink;
     color: colors.$purple-blue;
     font-weight: 700;
     padding: 5px 20px;
@@ -9,7 +10,7 @@
   }
   
   .button:hover {
-    background-color: colors.$hover-pink;
+    background-color: lighten(colors.$pink, 10);
   }
   
   .button a {
