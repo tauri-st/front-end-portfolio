@@ -7,13 +7,11 @@ body {
   }
 
   h1 {
-    color: colors.$gray-white;
     font-family: $main-header-font;
     padding-bottom: 30px;
   }
   
   h2 {
-    color: colors.$gray-white;
     font-family: $primary-font-stack;
     margin-top: 30px;
   }
@@ -26,14 +24,12 @@ body {
   }
   
   h4 {
-    color: colors.$purple-blue;
     font-family: $primary-font-stack;
     font-size: 1.33em;
     margin-bottom: 40px;
   }
   
   p {
-    color: colors.$purple-blue;
     font-family: $primary-font-stack;
     font-weight: 700;
     line-height: 1.5;
@@ -41,7 +37,6 @@ body {
   }
   
   a {
-    color: colors.$gray-white;
     font-family: $primary-font-stack;
     font-size: .9rem;
     text-decoration: none;
@@ -53,7 +48,6 @@ body {
   }
   
   ul li {
-    color: colors.$gray-white;
     font-family: $primary-font-stack;
     font-size: 1.25rem;
   }

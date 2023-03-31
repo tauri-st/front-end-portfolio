@@ -46,13 +46,11 @@ body {
 }
 
 h1 {
-  color: #EEE4F0;
   font-family: "Lexend Tera", sans-serif;
   padding-bottom: 30px;
 }
 
 h2 {
-  color: #EEE4F0;
   font-family: "Lekton", sans-serif;
   margin-top: 30px;
 }
@@ -65,14 +63,12 @@ h3 {
 }
 
 h4 {
-  color: #351D77;
   font-family: "Lekton", sans-serif;
   font-size: 1.33em;
   margin-bottom: 40px;
 }
 
 p {
-  color: #351D77;
   font-family: "Lekton", sans-serif;
   font-weight: 700;
   line-height: 1.5;
@@ -80,7 +76,6 @@ p {
 }
 
 a {
-  color: #EEE4F0;
   font-family: "Lekton", sans-serif;
   font-size: 0.9rem;
   text-decoration: none;
@@ -92,7 +87,6 @@ ul {
 }
 
 ul li {
-  color: #EEE4F0;
   font-family: "Lekton", sans-serif;
   font-size: 1.25rem;
 }
@@ -210,25 +204,21 @@ header,
 #skill-section,
 #contact {
   background-color: #351D77;
+  color: #EEE4F0;
 }
-header h3,
-header h4,
-header p,
-#skill-section h3,
-#skill-section h4,
-#skill-section p,
-#contact h3,
-#contact h4,
-#contact p {
+header a,
+#skill-section a,
+#contact a {
   color: #EEE4F0;
 }
 
 #projects,
 #about {
   background-color: #EEE4F0;
+  color: #351D77;
 }
-#projects h3,
-#about h3 {
+#projects a,
+#about a {
   color: #351D77;
 }
 

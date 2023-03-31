@@ -113,18 +113,18 @@
   #skill-section, 
   #contact {
     background-color: colors.$purple-blue;
-      h3, 
-      h4, 
-      p {
-        color: colors.$gray-white;
-      }
+    color: colors.$gray-white;
+    a {
+      color: colors.$gray-white;
+    }
   }
 
   #projects,
   #about {
     background-color: colors.$gray-white;
-      h3 {
-        color: colors.$purple-blue;
+    color: colors.$purple-blue;
+    a {
+      color: colors.$purple-blue;
     }
   }
 
