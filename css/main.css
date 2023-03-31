@@ -262,7 +262,8 @@ main .content-wrapper {
 
 /***** PROJECTS *****/
 #projects {
-  padding: 20px 2rem;
+  padding-top: 20px;
+  padding-bottom: 60px;
 }
 
 #projects .content-wrapper {
