@@ -397,6 +397,10 @@
     .content-wrapper {
       max-width: 640px;
     }
+
+    h3 {
+      font-size: 3rem;
+      }
   
     a {
       font-size: 1.25rem;
@@ -408,10 +412,6 @@
       .content-wrapper {
         flex-flow: row wrap;
         justify-content: space-between;
-      }
-
-      h3 {
-      font-size: 3rem;
       }
   
       .project-container {
