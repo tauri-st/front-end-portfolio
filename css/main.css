@@ -192,11 +192,13 @@ textarea {
 /* GENERAL BODY STYLES */
 header,
 #hero-area,
-#work,
-#skills,
+#projects,
+#skill-section,
 #about,
-footer {
+#contact {
   display: flex;
+  align-items: center;
+  flex-flow: column wrap;
   justify-content: center;
 }
 
@@ -254,19 +256,12 @@ header a,
 }
 
 /**** MAIN SECTION STYLES *****/
-main {
-  flex-flow: column wrap;
-}
-
 main .content-wrapper {
   margin: 0;
 }
 
 /***** PROJECTS *****/
 #projects {
-  display: flex;
-  align-items: center;
-  flex-flow: column wrap;
   padding: 20px 2rem;
 }
 
@@ -301,13 +296,6 @@ main .content-wrapper {
 }
 
 /***** SKILLS *****/
-#skill-section {
-  display: flex;
-  align-items: center;
-  flex-flow: column wrap;
-  justify-content: center;
-}
-
 #skill-section .content-wrapper {
   display: flex;
   align-items: center;
@@ -347,9 +335,6 @@ main .content-wrapper {
 
 /***** FOOTER SECTION *****/
 #contact {
-  display: flex;
-  align-items: center;
-  flex-flow: column wrap;
   padding: 80px 0;
 }
 
@@ -468,7 +453,6 @@ main .content-wrapper {
   }
   /***** PROJECTS *****/
   #projects .content-wrapper {
-    display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
   }
