@@ -1,3 +1,14 @@
+/*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
+/* main.css 2.1.0 | MIT License | https://github.com/h5bp/main.css#readme */
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+/***** GENRAL STYLES *****/
 html {
   scroll-behavior: smooth;
 }
@@ -41,6 +52,8 @@ header nav ul {
   text-transform: uppercase;
 }
 
+/* BRAND STYLES */
+/* BRAND STYLES */
 body {
   line-height: 1.4;
 }
@@ -81,6 +94,14 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-shadow: 0 0 7px #fff5a3, 0 0 10px #fff5a3, 0 0 21px #fff5a3, 0 0 42px #fff5a3, 0 0 82px #fff5a3, 0 0 92px #fff5a3, 0 0 102px #fff5a3, 0 0 151px #fff5a3;
+}
+
+.contact-button:hover {
+  text-shadow: none;
+}
+
 ul {
   list-style: none;
   padding-left: 0;
@@ -91,6 +112,7 @@ ul li {
   font-size: 1.25rem;
 }
 
+/* BRAND STYLES */
 .button {
   background-color: #f87795;
   color: #351D77;
@@ -107,18 +129,6 @@ ul li {
   color: #351D77;
 }
 
-/*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
-/* main.css 2.1.0 | MIT License | https://github.com/h5bp/main.css#readme */
-/*
- * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
- */
-/* ==========================================================================
-   Base styles: opinionated defaults
-   ========================================================================== */
-/***** GENRAL STYLES *****/
-/* BRAND STYLES */
 html {
   color: #222;
   font-size: 1em;
