@@ -151,6 +151,10 @@
       text-align: left;
     }
 
+    h2 {
+      text-align: center;
+    }
+
     .tooltip .tooltiptext {
       background-color: colors.$seafoam-green;
       border-radius: 6px;
@@ -478,6 +482,10 @@
       .greeting-info {
         grid-column: 2 / 3;
         grid-row: 2 / 3;
+      }
+
+      h2 {
+        text-align: left;
       }
     }
     /***** ABOUT *****/

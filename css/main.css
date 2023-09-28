@@ -249,6 +249,9 @@ header a,
   margin-bottom: 30px;
   text-align: left;
 }
+#hero-area h2 {
+  text-align: center;
+}
 #hero-area .tooltip .tooltiptext {
   background-color: #03dca2;
   border-radius: 6px;
@@ -519,6 +522,9 @@ main .content-wrapper {
   #hero-area .greeting-info {
     grid-column: 2/3;
     grid-row: 2/3;
+  }
+  #hero-area h2 {
+    text-align: left;
   }
   /***** ABOUT *****/
   #about .content-wrapper {
