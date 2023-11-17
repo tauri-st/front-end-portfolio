@@ -9,6 +9,7 @@
    Base styles: opinionated defaults
    ========================================================================== */
 /***** GENRAL STYLES *****/
+/* GENERAL LAYOUT STYLES */
 html {
   scroll-behavior: smooth;
 }
@@ -32,6 +33,7 @@ img {
   margin: 50px 0;
 }
 
+/* NAV STYLES */
 header {
   padding-top: 30px;
   padding-bottom: 60px;
@@ -54,6 +56,7 @@ header nav ul {
 
 /* BRAND STYLES */
 /* BRAND STYLES */
+/* FONT STYLES */
 body {
   line-height: 1.4;
 }
@@ -113,6 +116,7 @@ ul li {
 }
 
 /* BRAND STYLES */
+/* BUTTON STYLES */
 .button {
   background-color: #f87795;
   color: #351D77;
