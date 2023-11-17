@@ -18,3 +18,21 @@
   .button a {
     color: colors.$purple-blue;
   }
+
+  a {
+    font-family: $primary-font-stack;
+    font-size: .9rem;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-shadow:
+      0 0 7px #fff5a3,
+      0 0 10px #fff5a3,
+      0 0 21px #fff5a3,
+      0 0 42px #fff5a3,
+      0 0 82px #fff5a3,
+      0 0 92px #fff5a3,
+      0 0 102px #fff5a3,
+      0 0 151px #fff5a3;
+  }
