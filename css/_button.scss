@@ -12,6 +12,7 @@
   
   .button:hover {
     background-color: lighten(colors.$pink, 10);
+    text-shadow: none;
   }
   
   .button a {
