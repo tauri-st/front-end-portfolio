@@ -1,3 +1,4 @@
+@use 'colors';
 /* GENERAL LAYOUT STYLES */
 html {
     scroll-behavior: smooth;
@@ -32,6 +33,6 @@ html {
 
   .icon-github,
   .icon-linkedin {
-    color: red;
+    color: colors.$gray-white;
     font-size: 48px;
   }

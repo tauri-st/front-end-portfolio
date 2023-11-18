@@ -33,6 +33,20 @@ img {
   margin: 50px 0;
 }
 
+.icon {
+  display: inline-block;
+  color: #444444;
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
+}
+
+.icon-github,
+.icon-linkedin {
+  color: #EEE4F0;
+  font-size: 48px;
+}
+
 /* NAV STYLES */
 header {
   padding-top: 30px;
@@ -54,7 +68,6 @@ header nav ul {
   text-transform: uppercase;
 }
 
-/* BRAND STYLES */
 /* BRAND STYLES */
 /* FONT STYLES */
 body {
@@ -101,7 +114,51 @@ ul li {
   font-size: 1.25rem;
 }
 
-/* BRAND STYLES */
+/* FONT STYLES */
+body {
+  line-height: 1.4;
+}
+
+h1 {
+  font-family: "Lexend Tera", sans-serif;
+  padding-bottom: 30px;
+}
+
+h2 {
+  font-family: "Lekton", sans-serif;
+  margin-top: 30px;
+}
+
+h3 {
+  font-size: 1.75rem;
+  font-family: "Lekton", sans-serif;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+h4 {
+  font-family: "Lekton", sans-serif;
+  font-size: 1.33em;
+  margin-bottom: 40px;
+}
+
+p {
+  font-family: "Lekton", sans-serif;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  font-family: "Lekton", sans-serif;
+  font-size: 1.25rem;
+}
+
 /* BUTTON STYLES */
 .button {
   background-color: #f87795;
@@ -118,6 +175,16 @@ ul li {
 
 .button a {
   color: #351D77;
+}
+
+a {
+  font-family: "Lekton", sans-serif;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+a:hover {
+  text-shadow: 0 0 7px #fff5a3, 0 0 10px #fff5a3, 0 0 21px #fff5a3, 0 0 42px #fff5a3, 0 0 82px #fff5a3, 0 0 92px #fff5a3, 0 0 102px #fff5a3, 0 0 151px #fff5a3;
 }
 
 html {
