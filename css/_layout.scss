@@ -21,3 +21,17 @@ html {
     width: 85%;
     margin: 50px 0;
   }
+
+  .icon {
+    display: inline-block;
+    color: #444444;
+    width: 1em;
+    height: 1em;
+    fill: currentColor;
+  }
+
+  .icon-github,
+  .icon-linkedin {
+    color: red;
+    font-size: 48px;
+  }
