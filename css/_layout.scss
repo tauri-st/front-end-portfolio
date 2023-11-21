@@ -26,12 +26,12 @@ html {
   .icon {
     display: inline-block;
     color: colors.$gray-white;
-    width: 1em;
-    height: 1em;
     fill: currentColor;
+    font-size: 32px;
+    height: 1em;
+    width: 1em;
   }
 
   .icon-github,
   .icon-linkedin {
-    font-size: 32px;
   }

@@ -36,14 +36,10 @@ img {
 .icon {
   display: inline-block;
   color: #EEE4F0;
-  width: 1em;
-  height: 1em;
   fill: currentColor;
-}
-
-.icon-github,
-.icon-linkedin {
   font-size: 32px;
+  height: 1em;
+  width: 1em;
 }
 
 /* NAV STYLES */
