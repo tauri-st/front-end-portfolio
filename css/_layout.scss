@@ -25,7 +25,7 @@ html {
 
   .icon {
     display: inline-block;
-    color: #444444;
+    color: colors.$gray-white;
     width: 1em;
     height: 1em;
     fill: currentColor;
@@ -33,6 +33,5 @@ html {
 
   .icon-github,
   .icon-linkedin {
-    color: colors.$gray-white;
     font-size: 32px;
   }

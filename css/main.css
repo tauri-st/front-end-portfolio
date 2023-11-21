@@ -35,7 +35,7 @@ img {
 
 .icon {
   display: inline-block;
-  color: #444444;
+  color: #EEE4F0;
   width: 1em;
   height: 1em;
   fill: currentColor;
@@ -43,7 +43,6 @@ img {
 
 .icon-github,
 .icon-linkedin {
-  color: #EEE4F0;
   font-size: 32px;
 }
 
