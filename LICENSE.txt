@@ -1,3 +1,6 @@
+[Apache License](https://www.apache.org/licenses/LICENSE-2.0.txt
+) for use of API logo
+
 Copyright (c) HTML5 Boilerplate
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
