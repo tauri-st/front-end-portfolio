@@ -314,7 +314,7 @@ header a,
 #hero-area h2 {
   text-align: center;
 }
-#hero-area .tooltip .tooltiptext {
+#hero-area [role=tooltip] {
   background-color: #03dca2;
   border-radius: 6px;
   color: #351D77;
@@ -323,10 +323,14 @@ header a,
   text-align: center;
   visibility: hidden;
   width: 175px;
-  position: absolute;
   z-index: 1;
 }
-#hero-area .tooltip:hover .tooltiptext {
+#hero-area [aria-describedby]:hover,
+#hero-area [aria-describedby]:focus {
+  position: relative;
+}
+#hero-area [aria-describedby]:hover + [role=tooltip],
+#hero-area [aria-describedby]:focus + [role=tooltip] {
   visibility: visible;
 }
 

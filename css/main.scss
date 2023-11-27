@@ -155,7 +155,7 @@
       text-align: center;
     }
 
-    .tooltip .tooltiptext {
+    [role="tooltip"] {
       background-color: colors.$seafoam-green;
       border-radius: 6px;
       color: colors.$purple-blue;
@@ -164,11 +164,17 @@
       text-align: center;
       visibility: hidden;
       width: 175px;
-      position: absolute;
+      //position: absolute;
       z-index: 1;
-  }
+    }
+
+    [aria-describedby]:hover,
+    [aria-describedby]:focus {
+      position: relative;
+    }
   
-  .tooltip:hover .tooltiptext {
+  [aria-describedby]:hover + [role="tooltip"],
+  [aria-describedby]:focus + [role="tooltip"] {
     visibility: visible;
   }
 }
