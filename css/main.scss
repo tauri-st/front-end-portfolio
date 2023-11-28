@@ -139,7 +139,7 @@
     }
   
     .greeting,
-    .avatar {
+    .avatar-container {
       display: flex;
       justify-content: center;
       text-align: center;
@@ -164,7 +164,7 @@
       text-align: center;
       visibility: hidden;
       width: 175px;
-      //position: absolute;
+      position: absolute;
       z-index: 1;
     }
 
@@ -173,11 +173,11 @@
       position: relative;
     }
   
-  [aria-describedby]:hover + [role="tooltip"],
-  [aria-describedby]:focus + [role="tooltip"] {
-    visibility: visible;
+    [aria-describedby]:hover + [role="tooltip"],
+    [aria-describedby]:focus + [role="tooltip"] {
+      visibility: visible;
+    }
   }
-}
   
   /**** MAIN SECTION STYLES *****/
   

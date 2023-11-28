@@ -301,7 +301,7 @@ header a,
   margin-top: 20px;
 }
 #hero-area .greeting,
-#hero-area .avatar {
+#hero-area .avatar-container {
   display: flex;
   justify-content: center;
   text-align: center;
@@ -323,6 +323,7 @@ header a,
   text-align: center;
   visibility: hidden;
   width: 175px;
+  position: absolute;
   z-index: 1;
 }
 #hero-area [aria-describedby]:hover,
