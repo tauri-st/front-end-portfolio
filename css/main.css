@@ -577,7 +577,7 @@ main .content-wrapper {
     grid-template-columns: 580px 380px;
     grid-template-rows: 200px 300px;
   }
-  #hero-area .avatar {
+  #hero-area .avatar-container {
     grid-column: 1/2;
     grid-row: 1/3;
   }
