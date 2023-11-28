@@ -155,7 +155,8 @@
       text-align: center;
     }
 
-    [role="tooltip"] {
+    [role="tooltip"],
+    .hidetooltip.hidetooltip.hidetooltip + [role="tooltip"] {
       background-color: colors.$seafoam-green;
       border-radius: 6px;
       color: colors.$purple-blue;

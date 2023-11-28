@@ -314,7 +314,8 @@ header a,
 #hero-area h2 {
   text-align: center;
 }
-#hero-area [role=tooltip] {
+#hero-area [role=tooltip],
+#hero-area .hidetooltip.hidetooltip.hidetooltip + [role=tooltip] {
   background-color: #03dca2;
   border-radius: 6px;
   color: #351D77;
