@@ -376,6 +376,9 @@ main .content-wrapper {
 #projects .highlight-two {
   background-color: #03dca2;
 }
+#projects .project-buttons-container {
+  display: flex;
+}
 
 /***** SKILLS *****/
 #skill-section .content-wrapper {
