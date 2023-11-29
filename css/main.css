@@ -43,10 +43,18 @@ img {
   width: 1em;
 }
 
+header,
+#projects,
+#skill-section,
+#about,
+#contact {
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+
 /* NAV STYLES */
 header {
   padding-top: 30px;
-  padding-bottom: 60px;
 }
 
 header .content-wrapper {
@@ -347,11 +355,6 @@ main .content-wrapper {
 }
 
 /***** PROJECTS *****/
-#projects {
-  padding-top: 20px;
-  padding-bottom: 60px;
-}
-
 #projects .content-wrapper {
   display: flex;
   align-items: center;
@@ -405,10 +408,6 @@ main .content-wrapper {
 }
 
 /***** ABOUT SECTION *****/
-#about {
-  padding: 60px 0;
-}
-
 #about .main-about {
   font-size: 1.33em;
 }
@@ -424,10 +423,6 @@ main .content-wrapper {
 }
 
 /***** FOOTER SECTION *****/
-#contact {
-  padding: 80px 0;
-}
-
 #contact .content-wrapper {
   display: flex;
   align-items: center;
