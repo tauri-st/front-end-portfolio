@@ -284,6 +284,11 @@
     display: flex;
     padding-bottom: 0;
 
+    h3 {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
     .content-wrapper {
       display: flex;
       align-items: center;

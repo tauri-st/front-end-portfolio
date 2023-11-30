@@ -426,6 +426,10 @@ main .content-wrapper {
   display: flex;
   padding-bottom: 0;
 }
+#contact h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 #contact .content-wrapper {
   display: flex;
   align-items: center;
