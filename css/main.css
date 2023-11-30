@@ -426,28 +426,28 @@ main .content-wrapper {
   display: flex;
   padding-bottom: 0;
 }
-#contact h3 {
-  margin-top: 0;
-  margin-bottom: 0;
-}
 #contact .content-wrapper {
   display: flex;
   align-items: center;
   flex-flow: column wrap;
   justify-content: center;
 }
-#contact .points-of-contact {
+#contact .content-wrapper h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#contact .content-wrapper .points-of-contact {
   display: flex;
   align-items: center;
   flex-flow: column wrap;
 }
-#contact .social-media ul {
+#contact .content-wrapper .points-of-contact .social-media ul {
   display: flex;
   justify-content: space-around;
   padding: 0;
 }
-#contact .meet-me,
-#contact .contact-info {
+#contact .content-wrapper .points-of-contact .meet-me,
+#contact .content-wrapper .points-of-contact .contact-info {
   display: flex;
   align-items: center;
   flex-flow: column wrap;
