@@ -453,6 +453,9 @@ main .content-wrapper {
   align-items: center;
   flex-flow: column wrap;
 }
+#contact .content-wrapper .copyright {
+  margin-top: 40px;
+}
 
 /* ==========================================================================
    Helper classes
