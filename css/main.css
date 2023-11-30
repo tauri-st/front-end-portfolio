@@ -424,6 +424,7 @@ main .content-wrapper {
 /***** FOOTER SECTION *****/
 #contact {
   display: flex;
+  padding-bottom: 0;
 }
 #contact .content-wrapper {
   display: flex;
