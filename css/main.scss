@@ -435,6 +435,15 @@
         margin: 20px 15px;
         height: 600px;
         width: 45%;
+
+        .site-button,
+        .repo-button {
+          font-size: 1.125rem;
+        }
+
+        .repo-button {
+          margin-left: 40px;
+        }
       }
     }
   

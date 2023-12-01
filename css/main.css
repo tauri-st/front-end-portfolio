@@ -561,6 +561,13 @@ main .content-wrapper {
     height: 600px;
     width: 45%;
   }
+  #projects .project-container .site-button,
+  #projects .project-container .repo-button {
+    font-size: 1.125rem;
+  }
+  #projects .project-container .repo-button {
+    margin-left: 40px;
+  }
   /***** SKILLS *****/
   #skill-section .content-wrapper {
     align-items: start;
