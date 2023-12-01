@@ -440,7 +440,7 @@ main .content-wrapper {
   padding: 20px 0;
   display: flex;
   align-items: center;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
 }
 #contact .content-wrapper .points-of-contact .social-media ul {
   display: flex;
@@ -571,13 +571,13 @@ main .content-wrapper {
     padding-right: 30px;
   }
   /***** FOOTER *****/
-  #contact .points-of-contact {
-    flex-direction: row;
+  #contact .content-wrapper .points-of-contact {
+    flex-flow: row wrap;
     align-items: start;
   }
-  #contact .meet-me,
-  #contact .social-media,
-  #contact .contact-info {
+  #contact .content-wrapper .points-of-contact .meet-me,
+  #contact .content-wrapper .points-of-contact .social-media,
+  #contact .content-wrapper .points-of-contact .contact-info {
     margin: 0 10px;
   }
 }

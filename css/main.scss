@@ -298,7 +298,7 @@
         padding: 20px 0;
         display: flex;
         align-items: center;
-        flex-flow: row wrap;
+        flex-flow: column wrap;
         .social-media ul {
           display: flex;
           justify-content: space-around;
@@ -406,7 +406,8 @@
      These examples override the primary ('mobile first') styles.
      Modify as content requires.
      ========================================================================== */
-  /********** TABLET STYLES **********/
+  
+     /********** TABLET STYLES **********/
   @media only screen and (min-width: 768px) {
     /***** GENERAL *****/
     .content-wrapper {
@@ -452,15 +453,16 @@
     
     /***** FOOTER *****/
     #contact {
-      .points-of-contact {
-        flex-direction: row;
-        align-items: start;
-      }
-  
-      .meet-me,
-      .social-media,
-      .contact-info {
-        margin: 0 10px;
+      .content-wrapper {
+        .points-of-contact {
+          flex-flow: row wrap;
+          align-items: start;
+          .meet-me,
+          .social-media,
+          .contact-info {
+            margin: 0 10px;
+          }
+        }
       }
     }
   }
