@@ -510,6 +510,21 @@
         text-align: left;
       }
     }
+    /***** PROJECT *****/
+    #projects {
+      .project-container {
+        .project-buttons-container {
+          .site-button,
+          .repo-button {
+            font-size: 1.33rem;
+          }
+
+          .repo-button {
+            margin-left: 40px;
+          }
+        }
+      }
+    }
     /***** ABOUT *****/
     #about {
       .content-wrapper {

@@ -615,6 +615,14 @@ main .content-wrapper {
   #hero-area h2 {
     text-align: left;
   }
+  /***** PROJECT *****/
+  #projects .project-container .project-buttons-container .site-button,
+  #projects .project-container .project-buttons-container .repo-button {
+    font-size: 1.33rem;
+  }
+  #projects .project-container .project-buttons-container .repo-button {
+    margin-left: 40px;
+  }
   /***** ABOUT *****/
   #about .content-wrapper {
     display: flex;
